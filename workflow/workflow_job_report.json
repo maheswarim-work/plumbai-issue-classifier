@@ -1,0 +1,236 @@
+{
+  "export_date": "2025-07-13T20:03:14.108017",
+  "total_jobs": 4,
+  "jobs": [
+    {
+      "id": "JOB-0001",
+      "customer": {
+        "name": "Mary Smith",
+        "phone": "555-0101",
+        "address": "123 Oak St, Downtown"
+      },
+      "description": "EMERGENCY! Pipe burst in basement, water everywhere!",
+      "classification": {
+        "category": "pipe",
+        "confidence": 0.2185105023642055,
+        "severity": "critical",
+        "urgency": "high",
+        "estimated_duration": "2-4 hours",
+        "required_tools": [
+          "pipe wrench",
+          "pipe cutter",
+          "soldering torch",
+          "fittings"
+        ],
+        "recommended_parts": [
+          "pipe sections",
+          "fittings",
+          "soldering materials"
+        ],
+        "safety_notes": [
+          "Turn off water supply",
+          "Check for gas leaks if near gas lines"
+        ],
+        "next_steps": [
+          "Schedule technician within 2-4 hours",
+          "Contact customer to confirm availability",
+          "Bring backup technician if needed",
+          "Prepare for potential emergency parts ordering"
+        ]
+      },
+      "status": "completed",
+      "priority": "HIGH",
+      "assigned_technician": "Mike Johnson",
+      "estimated_duration": "2-4 hours",
+      "required_tools": [
+        "pipe wrench",
+        "pipe cutter",
+        "soldering torch",
+        "fittings"
+      ],
+      "recommended_parts": [
+        "pipe sections",
+        "fittings",
+        "soldering materials"
+      ],
+      "safety_notes": [
+        "Turn off water supply",
+        "Check for gas leaks if near gas lines"
+      ],
+      "created_at": "2025-07-13T20:03:10.032239",
+      "notes": "Emergency resolved - pipe replaced"
+    },
+    {
+      "id": "JOB-0002",
+      "customer": {
+        "name": "John Davis",
+        "phone": "555-0202",
+        "address": "456 Pine Ave, Northside"
+      },
+      "description": "Kitchen sink is clogged and water won't drain",
+      "classification": {
+        "category": "clog",
+        "confidence": 0.1970547805811719,
+        "severity": "medium",
+        "urgency": "medium",
+        "estimated_duration": "30 minutes - 2 hours",
+        "required_tools": [
+          "plunger",
+          "drain snake",
+          "auger",
+          "chemical cleaner"
+        ],
+        "recommended_parts": [
+          "drain cleaner",
+          "replacement drain parts"
+        ],
+        "safety_notes": [
+          "Use appropriate PPE when using chemicals",
+          "Avoid harsh chemicals on older pipes"
+        ],
+        "next_steps": [
+          "Schedule technician within 24-48 hours",
+          "Send confirmation email to customer",
+          "Bring appropriate drain cleaning tools",
+          "Check if customer has tried DIY solutions"
+        ]
+      },
+      "status": "assigned",
+      "priority": "MEDIUM",
+      "assigned_technician": "Sarah Williams",
+      "estimated_duration": "30 minutes - 2 hours",
+      "required_tools": [
+        "plunger",
+        "drain snake",
+        "auger",
+        "chemical cleaner"
+      ],
+      "recommended_parts": [
+        "drain cleaner",
+        "replacement drain parts"
+      ],
+      "safety_notes": [
+        "Use appropriate PPE when using chemicals",
+        "Avoid harsh chemicals on older pipes"
+      ],
+      "created_at": "2025-07-13T20:03:11.044510",
+      "notes": ""
+    },
+    {
+      "id": "JOB-0003",
+      "customer": {
+        "name": "Lisa Brown",
+        "phone": "555-0303",
+        "address": "789 Elm Rd, Southside"
+      },
+      "description": "No hot water coming from any faucet",
+      "classification": {
+        "category": "water_heater",
+        "confidence": 0.30045941881419275,
+        "severity": "medium",
+        "urgency": "medium",
+        "estimated_duration": "2-4 hours",
+        "required_tools": [
+          "multimeter",
+          "thermostat",
+          "element wrench",
+          "pipe wrench"
+        ],
+        "recommended_parts": [
+          "thermostat",
+          "heating element",
+          "anode rod"
+        ],
+        "safety_notes": [
+          "Turn off power/gas before service",
+          "Check for gas leaks"
+        ],
+        "next_steps": [
+          "Schedule technician within 24-48 hours",
+          "Send confirmation email to customer",
+          "Bring multimeter and testing equipment",
+          "Check warranty status if applicable"
+        ]
+      },
+      "status": "assigned",
+      "priority": "MEDIUM",
+      "assigned_technician": "David Chen",
+      "estimated_duration": "2-4 hours",
+      "required_tools": [
+        "multimeter",
+        "thermostat",
+        "element wrench",
+        "pipe wrench"
+      ],
+      "recommended_parts": [
+        "thermostat",
+        "heating element",
+        "anode rod"
+      ],
+      "safety_notes": [
+        "Turn off power/gas before service",
+        "Check for gas leaks"
+      ],
+      "created_at": "2025-07-13T20:03:12.061498",
+      "notes": ""
+    },
+    {
+      "id": "JOB-0004",
+      "customer": {
+        "name": "Bob Wilson",
+        "phone": "555-0404",
+        "address": "321 Maple Dr, Eastside"
+      },
+      "description": "Toilet won't flush properly",
+      "classification": {
+        "category": "toilet",
+        "confidence": 0.2499439347320561,
+        "severity": "medium",
+        "urgency": "medium",
+        "estimated_duration": "1-2 hours",
+        "required_tools": [
+          "toilet auger",
+          "wax ring",
+          "closet bolts",
+          "tank repair kit"
+        ],
+        "recommended_parts": [
+          "flapper",
+          "fill valve",
+          "flush valve",
+          "wax ring"
+        ],
+        "safety_notes": [
+          "Turn off water supply",
+          "Use proper lifting techniques"
+        ],
+        "next_steps": [
+          "Schedule technician within 24-48 hours",
+          "Send confirmation email to customer"
+        ]
+      },
+      "status": "assigned",
+      "priority": "MEDIUM",
+      "assigned_technician": "Lisa Rodriguez",
+      "estimated_duration": "1-2 hours",
+      "required_tools": [
+        "toilet auger",
+        "wax ring",
+        "closet bolts",
+        "tank repair kit"
+      ],
+      "recommended_parts": [
+        "flapper",
+        "fill valve",
+        "flush valve",
+        "wax ring"
+      ],
+      "safety_notes": [
+        "Turn off water supply",
+        "Use proper lifting techniques"
+      ],
+      "created_at": "2025-07-13T20:03:13.085391",
+      "notes": ""
+    }
+  ]
+}
